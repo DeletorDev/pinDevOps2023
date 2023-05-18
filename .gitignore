@@ -39,3 +39,4 @@ eks_setup_terraform/terraform.rc
 eks_setup_terraform/kubeconfig_mundose-eks-iFOhMCH6
 ekscli.txt
 monitoring/fluent-azure.yaml
+eks_setup_terraform/terraplan.plan
