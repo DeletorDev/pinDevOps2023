@@ -37,3 +37,5 @@ eks_setup_terraform/terraform.rc
 
 # kubeconfig
 eks_setup_terraform/kubeconfig_mundose-eks-iFOhMCH6
+ekscli.txt
+monitoring/fluent-azure.yaml

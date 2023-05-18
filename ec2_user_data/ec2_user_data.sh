@@ -13,10 +13,15 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 # Move eksctl to /usr/local/bin
 sudo mv /tmp/eksctl /usr/local/bin
 
-# Donwload last version of kubectl
+# Download last version of kubectl
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 # Install kubectl
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+# Set alias and autocompletion to kubectl
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+echo "alias k=kubectl" >> ~/.bashrc
+echo "complete -o default -F __start_kubectl k" >> ~/.bashrc
+source ~/.bashrc
 
 #Install Docker from snap
 sudo snap install docker
