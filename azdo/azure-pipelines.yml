@@ -11,4 +11,4 @@ steps:
   inputs:
     action: 'deploy'
     kubernetesServiceConnection: 'aks-mundose-azure'
-    manifests: '\azdo\nginx-deployment.yaml'
+    manifests: 'azdo/nginx-deployment.yaml'
