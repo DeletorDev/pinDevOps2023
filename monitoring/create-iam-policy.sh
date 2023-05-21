@@ -7,7 +7,7 @@ cat <<EoF > ~/environment/logging/fluent-bit-policy.json
 "Statement": [
 {
 "Action": [
-"es:ESHttp*"
+"es:*"
 ],
 "Resource":
 "arn:aws:es:${AWS_REGION}:${ACCOUNT_ID}:domain/${ES_DOMAIN_NAME}",
