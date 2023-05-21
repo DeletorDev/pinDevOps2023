@@ -1,6 +1,6 @@
 {
-    "DomainName": "${ES_DOMAIN_NAME}",
-    "ElasticsearchVersion": "${ES_VERSION}",
+    "DomainName": "eksworkshop-logging",
+    "ElasticsearchVersion": "7.10",
     "ElasticsearchClusterConfig": {
         "InstanceType": "r5.large.elasticsearch",
         "InstanceCount": 1,
@@ -33,7 +33,7 @@
         "InternalUserDatabaseEnabled": true,
         "MasterUserOptions": {
             "MasterUserName": "${ES_DOMAIN_USER}",
-            "MasterUserPassword": "${ES_DOMAIN_PASSWORD}"
+            "MasterUserPassword": "Elastic1304#$"
         }
     }
 }

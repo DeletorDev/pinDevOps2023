@@ -75,7 +75,7 @@ data:
     [OUTPUT]
         Name            es
         Match           *
-        Host            search-eksworkshop-logging-hqmp44djothit4tjmkke3xn2ba.us-east-2.es.amazonaws.com
+        Host            search-eksworkshop-logging-rs5b3p6pnct5otrfbii6ytgnaa.us-east-2.es.amazonaws.com
         Port            443
         TLS             On
         AWS_Auth        On
